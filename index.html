@@ -1,90 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="icons/favicon.svg">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="icons/favicon.svg" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="nav-side">
-            <div class="navheader">
-                <img src="icons/dashboard.svg" alt="Dashboard Icon" class="dashboard-icon">
-                <h1 class="dashboard-name">Dashboard</h1>
-            </div>
-            <nav class="nav">
-                <div class="nav-item">
-                    <img src="icons/home.svg" alt="home icon" class="icon">
-                    <a href="#" class="nav-title">Home</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/profile.svg" alt="profile icon" class="icon">
-                    <a href="#" class="nav-title">Profile</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/message.svg" alt="messages icon" class="icon">
-                    <a href="#" class="nav-title">Messages</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/history.svg" alt="history icon" class="icon">
-                    <a href="#" class="nav-title">History</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/task.svg" alt="tasks icon" class="icon">
-                    <a href="#" class="nav-title">Tasks</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/communities.svg" alt="communities icon" class="icon">
-                    <a href="#" class="nav-title">Communities</a>
-                </div>
-                <div class="nav-item settings">
-                    <img src="icons/setting.svg" alt="settings icons" class="icon">
-                    <a href="#" class="nav-title">Settings</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/support.svg" alt="support icon" class="icon">
-                    <a href="#" class="nav-title">Support</a>
-                </div>
-                <div class="nav-item">
-                    <img src="icons/privacy.svg" alt="privacy icon" class="icon">
-                    <a href="#" class="nav-title">Privacy</a>
-                </div>
-            </nav>
+      <div class="nav-side">
+        <div class="navheader">
+          <img
+            src="icons/dashboard.svg"
+            alt="Dashboard Icon"
+            class="dashboard-icon"
+          />
+          <h1 class="dashboard-name">Dashboard</h1>
         </div>
-        <div class="main">
-            <div class="main-head">
-                <div class="top-head">
-                    <img src="icons/search.svg" alt="search icon" class="icon2">
-                    <input type="search" class="search">
-                    <div class="right-side">
-                        <img src="icons/notification.svg" alt="notification" class="icon2 bell">
-                        <img src="icons/cat.jpg" alt="profile picture" class="profile-picture">
-                        <span class="name1">Morgan Oakley</span>
-                    </div>
-                </div>
-                <div class="bottom-head">
-                    <div class="item1">
-                        <img src="icons/cat.jpg" alt="profile picture" class="profile-picture-1">
-                        <div class="stacked">
-                            <span class="name2">Hi there,</span>
-                            <span class="name3">Morgan Oakley (@morgan)</span>
-                        </div>
-                    </div>
-                    <div class="item2">
-                        <div class="buttons">
-                            <button class="button">New</button>
-                            <button class="button">Upload</button>
-                            <button class="button">Share</button>
-                        </div>
-                    </div>
-                </div>
+        <nav class="nav">
+          <div class="nav-item">
+            <img src="icons/home.svg" alt="home icon" class="icon" />
+            <a href="#" class="nav-title">Home</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/profile.svg" alt="profile icon" class="icon" />
+            <a href="#" class="nav-title">Profile</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/message.svg" alt="messages icon" class="icon" />
+            <a href="#" class="nav-title">Messages</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/history.svg" alt="history icon" class="icon" />
+            <a href="#" class="nav-title">History</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/task.svg" alt="tasks icon" class="icon" />
+            <a href="#" class="nav-title">Tasks</a>
+          </div>
+          <div class="nav-item">
+            <img
+              src="icons/communities.svg"
+              alt="communities icon"
+              class="icon"
+            />
+            <a href="#" class="nav-title">Communities</a>
+          </div>
+          <div class="nav-item settings">
+            <img src="icons/setting.svg" alt="settings icons" class="icon" />
+            <a href="#" class="nav-title">Settings</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/support.svg" alt="support icon" class="icon" />
+            <a href="#" class="nav-title">Support</a>
+          </div>
+          <div class="nav-item">
+            <img src="icons/privacy.svg" alt="privacy icon" class="icon" />
+            <a href="#" class="nav-title">Privacy</a>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="main-head">
+          <div class="top-head">
+            <img src="icons/search.svg" alt="search icon" class="icon2" />
+            <input type="search" class="search" />
+            <div class="right-side">
+              <img
+                src="icons/notification.svg"
+                alt="notification"
+                class="icon2 bell"
+              />
+              <img
+                src="icons/cat.jpg"
+                alt="profile picture"
+                class="profile-picture"
+              />
+              <span class="name1">Cody Fisher</span>
             </div>
-            <div class="main-bottom">
-                <p>to be filled</p>
+          </div>
+          <div class="bottom-head">
+            <div class="item1">
+              <img
+                src="icons/cat.jpg"
+                alt="profile picture"
+                class="profile-picture-1"
+              />
+              <div class="stacked">
+                <span class="name2">Hi there,</span>
+                <span class="name3">Cody Fisher (@Cody)</span>
+              </div>
             </div>
+            <div class="item2">
+              <div class="buttons">
+                <button class="button">New</button>
+                <button class="button">Upload</button>
+                <button class="button">Share</button>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div class="main-bottom-1">
+          <h1 class="your-projects">Your Projects</h1>
+          <div class="grid">
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="panel" id="link1">
+              <div class="yellow"></div>
+              <div class="info">
+                <h2 class="info-title">Sign-up Form</h2>
+                <span
+                  >The Sign-Up Form Web Application is a simple and
+                  user-friendly platform that allows users to create an account
+                  by providing their personal information. The form collects
+                  basic details such as name, email address, password, and other
+                  relevant information required for user registration. This
+                  project is designed to demonstrate fundamental web development
+                  skills, including HTML for structure, CSS for styling, and
+                  JavaScript for form validation and interactivity.</span
+                >
+                <div class="row">
+                  <img
+                    src="/icons/github.svg"
+                    alt="github icon"
+                    class="icon3"
+                  />
+                  <img
+                    src="/icons/website.svg"
+                    alt="website icon"
+                    class="icon3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-bottom-2">
+            <div class="Announcements">
+              <h2>Announcements</h2>
+              <div class="panel2">
+                <div class="panel2-item">
+                  <span>Site Maintenance</span>
+                  <span
+                    >Our website is currently undergoing scheduled maintenance.
+                    During this time, some functionalities may be temporarily
+                    unavailable. We apologize for any inconvenience caused and
+                    appreciate your patience.</span
+                  >
+                </div>
+                <div class="panel2-item">
+                  <span>Community Share Day</span>
+                  <span
+                    >We are excited to announce our upcoming Community Share Day
+                    event, where we celebrate and share our collective
+                    achievements and stories. To ensure a smooth and successful
+                    event, please note the following details:</span
+                  >
+                </div>
+                <div class="panel2-item">
+                  <span>Updated Privacy Policy</span>
+                  <span
+                    >We are committed to protecting your privacy and ensuring
+                    the security of your personal information. We are pleased to
+                    inform you that we have updated our Privacy Policy to better
+                    explain how we collect, use, and safeguard your data.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

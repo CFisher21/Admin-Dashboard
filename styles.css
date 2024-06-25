@@ -7,12 +7,11 @@
 .container {
     display: flex;
     flex-direction: row;
-}
+} 
 
 .nav-side {
     background-color: #1992D4;
     width:  min(350px, 40vw);
-    height: 100vh;
 }
 
 .navheader {
@@ -41,6 +40,7 @@
     flex-direction: column;
     margin: 24px;
     margin-top: 48px;
+    
 }
 
 .nav-item {
@@ -65,6 +65,12 @@
 }
 .icon2 {
     width: 1.5rem;
+}
+
+.icon3 {
+    width: 2.5rem;
+    
+    padding: 4px;
 }
 
 .settings {
@@ -167,6 +173,52 @@
     cursor: pointer;
 }
 
-.main-bottom {
+.main-bottom-1 {
     background-color: #E2E8F0;
+    padding: 16px;
+    padding-top: 32px;
+   
+}
+
+.panel {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.yellow {
+    background-color: #F0B429;
+    height: 100%;
+    width: 16px;
+    padding-right: 16px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.info-title {
+    margin-bottom: 8px;
+}
+
+
+.your-projects {
+    margin-left: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
