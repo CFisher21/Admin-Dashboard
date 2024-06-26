@@ -9,9 +9,13 @@
     flex-direction: row;
 } 
 
+body {
+    background-color: #E2E8F0;
+}
 .nav-side {
     background-color: #1992D4;
     width:  min(350px, 40vw);
+    height: 100vh;
 }
 
 .navheader {
@@ -185,7 +189,6 @@
     height: 300px;
     width: 400px;
     background-color: white;
-    margin: 16px;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
@@ -207,7 +210,6 @@
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
 }
 
 .info-title {
@@ -216,27 +218,82 @@
 
 
 .your-projects {
-    margin-left: 16px;
+    margin-bottom: 16px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .panel2 {
-    height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: white;
     border-radius: 8px;
     padding: 16px;
+    margin-bottom: 16px;
 }
 
 .panel3 {
     margin-top: 16px;
-    height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: white;
     border-radius: 8px;
     padding: 16px;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.panel2-item {
+    height: 60px; 
+    width: 275px;
+    margin-top: 4px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin-bottom: 16px;
+}
+
+.textbody {
+    font-size: 14px;
+    padding: 4px;
+    height: 50px;
+}
+
+.main-bottom-2 {
+    background-color: #E2E8F0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.icon4 {
+    width: 4rem;
+    border-radius: 32px;
+    margin-right: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel3-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+}
+
+.announcements {
+    margin-bottom: 16px;
+}
+
+.username {
+    font-weight: 600;
 }
