@@ -5,17 +5,25 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
+    width: 100%;
+    height: 100%;
 } 
+
+html {
+    width: 100%;
+    height: 100%;
+}
 
 body {
     background-color: #E2E8F0;
+    height: 100%;
 }
 .nav-side {
+    display: flex;
     background-color: #1992D4;
-    width:  min(350px, 40vw);
-    height: 100vh;
+    flex-direction: column;
+    height: 100%;
+    width: 18%;
 }
 
 .navheader {
@@ -88,20 +96,15 @@ body {
 }
 
 .main-head {
-    padding: 32px;
+    padding: 16px;
     background-color: white;
-    width: 100%;
 }
 
 .top-head {
     display: flex;
     align-items: center;
-    margin-left: 64px;
-}
-
-.main {
-    width: 100%;
-    
+    margin: 16px;
+    justify-content: space-between;
 }
 
 .search {
@@ -128,9 +131,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 64px;
-    margin-top: 32px;
-    margin-right: 64px;
+    margin: 16px;
 }
 
 .stacked {
@@ -144,9 +145,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
-    right: 5%;
-    width: 300px;
+    width: 16%;
 }
 .name1 {
     font-weight: 700;
@@ -219,6 +218,13 @@ body {
     flex-direction: row;
 }
 
+.row-100 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
 .info-title {
     margin-bottom: 8px;
 }
@@ -277,6 +283,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
+    margin: 16px;
 }
 
 .icon4 {
