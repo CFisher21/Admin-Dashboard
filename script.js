@@ -58,3 +58,10 @@ site6.addEventListener('click', function() {
 github6.addEventListener('click', function() {
    window.open('https://github.com/CFisher21/Etch-a-Sketch/', '_blank')
 } )
+
+const toggleButton = document.getElementById('toggle-button');
+const nav = document.getElementsByClassName("nav")[0];
+
+toggleButton.addEventListener("click", () => {
+   nav.classList.toggle("active");
+})
