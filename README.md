@@ -28,7 +28,7 @@ GitHub: CFisher21
 
 ##Design 
 
-This was a project done with doing [The Odin Project](www.theodinproject.com). The goal of the project was to make it look like the design using CSS and HTML. Javascript was not required but it was used on this project to add some spice to it. It was not required be responsive for mobile but it was done anyways. 
+This was a project done with doing [The Odin Project](https://www.theodinproject.com). The goal of the project was to make it look like the design using CSS and HTML. Javascript was not required but it was used on this project to add some spice to it. It was not required be responsive for mobile but it was done anyways. 
 Below is a picture of the design that was suppose to be follow. 
 
 ![Dashboard Design Image](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
