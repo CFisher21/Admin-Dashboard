@@ -1,7 +1,7 @@
 # Admin-Dashboard
 Welcome to the Admin Dashboard application! This project is designed to provide an intuitive and user-friendly interface for managing various administrative tasks.
 
-##Contact
+## Contact
 If you have any questions or feedback, feel free to reach out:
 
 Name: Cody Fisher
@@ -26,7 +26,7 @@ GitHub: CFisher21
 - Announcements: Read important announcements in the Announcements section.
 - Trending: Explore trending projects or users in the Trending section.
 
-##Design 
+## Design 
 
 This was a project done with doing [The Odin Project](https://www.theodinproject.com). The goal of the project was to make it look like the design using CSS and HTML. Javascript was not required but it was used on this project to add some spice to it. It was not required be responsive for mobile but it was done anyways. 
 Below is a picture of the design that was suppose to be follow. 
